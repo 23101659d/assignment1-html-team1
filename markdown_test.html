@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Markdown Syntax Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.6; }
+        pre, code { background-color: #f4f4f4; padding: 0.5rem; border-radius: 5px; display: block; overflow-x: auto; }
+        table { border-collapse: collapse; width: 100%; }
+        table, th, td { border: 1px solid black; padding: 0.5rem; text-align: left; }
+        blockquote { margin: 1rem 0; padding-left: 1rem; border-left: 4px solid #ccc; color: #555; }
+    </style>
+</head>
+<body>
+
+<h1>Markdown Syntax Test</h1>
+<h2>1. Headings</h2>
+<h1>H1</h1>
+<h2>H2</h2>
+<h3>H3</h3>
+<h4>H4</h4>
+<h5>H5</h5>
+<h6>H6</h6>
+
+<hr>
+
+<h2>2. Emphasis</h2>
+<p><em>Italic</em></p>
+<p><strong>Bold</strong></p>
+<p><strong><em>Bold Italic</em></strong></p>
+<p><del>Strikethrough</del></p>
+
+<hr>
+
+<h2>3. Lists</h2>
+<h3>Unordered List</h3>
+<ul>
+    <li>Item 1</li>
+    <li>Item 2
+        <ul>
+            <li>Nested Item A</li>
+            <li>Nested Item B</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>Ordered List</h3>
+<ol>
+    <li>First</li>
+    <li>Second
+        <ol>
+            <li>Sub-second</li>
+            <li>Sub-third</li>
+        </ol>
+    </li>
+</ol>
+
+<hr>
+
+<h2>4. Code</h2>
+<p>Inline <code>code</code></p>
+
+<h3>Block code</h3>
+<pre><code class="language-python">def hello():
+    print("Hello, world!")</code></pre>
+
+<hr>
+
+<h2>5. Links and Images</h2>
+<p><a href="https://www.openai.com">OpenAI Website</a></p>
+<p><img src="https://markdown-here.com/img/icon256.png" alt="Markdown Logo" width="100"/></p>
+
+<hr>
+
+<h2>6. Blockquote</h2>
+<blockquote>
+    This is a blockquote.
+    <ul>
+        <li>Markdown is fun.</li>
+        <li>So is this test!</li>
+    </ul>
+</blockquote>
+
+<hr>
+
+<h2>7. Table</h2>
+<table>
+    <tr><th>Name</th><th>Age</th><th>Job</th></tr>
+    <tr><td>Alice</td><td>25</td><td>Developer</td></tr>
+    <tr><td>Bob</td><td>30</td><td>Designer</td></tr>
+    <tr><td>Carol</td><td>28</td><td>Manager</td></tr>
+</table>
+
+<hr>
+
+<h2>8. Task List</h2>
+<ul>
+    <li>[x] Write markdown</li>
+    <li>[ ] Preview markdown</li>
+    <li>[ ] Celebrate</li>
+</ul>
+
+<hr>
+
+<h2>9. Horizontal Rule</h2>
+<hr>
+
+<h2>10. HTML Inside Markdown</h2>
+<details>
+<summary>Click to expand</summary>
+<p>This is hidden content using HTML tags in Markdown!</p>
+</details>
+
+</body>
+</html>
